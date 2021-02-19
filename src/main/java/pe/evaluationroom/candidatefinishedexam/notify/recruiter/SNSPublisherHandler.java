@@ -33,8 +33,7 @@ public class SNSPublisherHandler implements RequestHandler<Candidato, APIGateway
 				append(name).
 				append(" ha finalizado el examen.").
 				append("\n\n").
-				append("Este es un mensaje automatizado del sistema EvaluationRoom. Por favor no responda al mismo.\r\n").
-				append("Si necesita ponerse en contacto diríjase a: fcernaf@gmail.com").
+				append("Mensaje automatizado de EvaluationRoom.").
 				toString();
 	}
 	
